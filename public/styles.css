@@ -482,47 +482,6 @@ body {
   box-shadow: var(--shadow-md);
 }
 
-.contact-form {
-  background-color: var(--bg-primary);
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: var(--shadow-md);
-}
-
-.form-group {
-  margin-bottom: 1.5rem;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 0.875rem;
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  font-family: inherit;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
 /* Footer */
 .footer {
   background-color: var(--bg-dark);

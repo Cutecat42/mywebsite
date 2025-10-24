@@ -3,7 +3,6 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase
 
 const app = initializeApp(firebaseConfig);
 
-//});
 
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
