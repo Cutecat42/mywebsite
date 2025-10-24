@@ -1,5 +1,5 @@
-import firebaseConfig from 'firebaseConfig';
-import { initializeApp } from 'firebase/compat/app';
+const firebaseConfig = require('firebaseConfig');
+const { initializeApp } = require('firebase/compat/app');
 
 const app = initializeApp(firebaseConfig);
 
