@@ -1,11 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
-const firebase = require('firebase/app');
-const firebaseConfig = require('firebaseConfig');
-const { initializeApp } = require('firebase/app');
+import { firebaseConfig } from './firebaseConfig.js';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
 
 const app = initializeApp(firebaseConfig);
 
-});
+//});
 
 // Mobile Navigation Toggle
 const hamburger = document.querySelector('.hamburger');
