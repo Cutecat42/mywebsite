@@ -1,5 +1,6 @@
+var firebase = require("firebase/app");
 const firebaseConfig = require('firebaseConfig');
-const { initializeApp } = require('firebase/compat/app');
+const { initializeApp } = require('firebase/app');
 
 const app = initializeApp(firebaseConfig);
 
