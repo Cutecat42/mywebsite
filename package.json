@@ -1,7 +1,6 @@
 {
   "name": "mywebsite",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "public/index.js",
   "scripts": {
